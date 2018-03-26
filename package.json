@@ -1,0 +1,58 @@
+{
+  "name": "redux-practice-2",
+  "version": "1.0.0",
+  "description": "Following along with Lecture 27 of 401d17",
+  "main": "index.js",
+  "jest": {
+    "globals": {
+      "__DEBUG__": false,
+      "process.env": {
+        "NODE_ENV": "testing"
+      }
+    }
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack-dev-server --inline --hot",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JudyVue/redux-practice-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JudyVue/redux-practice-2/issues"
+  },
+  "homepage": "https://github.com/JudyVue/redux-practice-2#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "dotenv": "^5.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.1.0",
+    "node-sass": "^4.8.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^16.2.0",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.7",
+    "superagent": "^3.8.2",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "url-loader": "^1.0.1",
+    "uuid": "^3.2.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
