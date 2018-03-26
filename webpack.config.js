@@ -19,7 +19,7 @@ const plugins = [
 ]
 
 if (production) {
-  plugins = [...plugins, new CleanPlugin(), new UgliflyPlugin()];
+  plugins = plugins.concat(new CleanPlugin(), new UgliflyPlugin());
 }
 
 module.exports = {
